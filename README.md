@@ -21,13 +21,13 @@ $ cd socket_proggraming/ ; make
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
 ```
 $ make clean; make
-$ ./basic_client & ./basic_server
+$ ./basic_server & ./basic_client
 ```
 
 ### Basice Client-Server model : Struct
 ```
 $ make clean; make
-$ ./struct_client & ./struct_server
+$ ./struct_server & ./struct_client
 ```
 
 ## Help
