@@ -1,5 +1,4 @@
 //Revise for DKU computer network class 2022 inhoinno
-//Origin Source : https://github.com/ujusy/C_Socket_/blob/master/server.c
 #include <stdio.h>
 #include <arpa/inet.h>
 #include <sys/socket.h>

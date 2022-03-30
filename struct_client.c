@@ -1,5 +1,4 @@
 //Revise for DKU computer network class 2022 in    hoinno
-//Origin Source : https://github.com/ujusy/C_So    cket_/blob/master/client.c
 #include <stdio.h>
 #include <sys/types.h>
 #include <sys/socket.h>
