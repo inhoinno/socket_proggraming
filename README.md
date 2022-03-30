@@ -1,6 +1,5 @@
 # socket_proggraming
-DKU Computer Network Practice
-### Inhoinno
+2022 DKU Computer Network Socket Programming Practice
 
 # DKU Computer Nexwork course 2022
 
