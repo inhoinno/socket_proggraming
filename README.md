@@ -46,3 +46,4 @@ This project is licensed under the GNU General Public License version 3.0 (GPLv3
 
 ## Acknowledgments
 * Wolfgang Mauereer, Professional Linux Kernel Architecture, O Wiely
+* [Sockets Programming in C](http://www.spec.gmu.edu/~pparis/classes/project_465/CSockets.pdf)
