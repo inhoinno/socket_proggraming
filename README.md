@@ -1,3 +1,19 @@
+```
+단국대학교 네트워크 소켓프로그래밍 실습하시는 학생들 안녕하세요, 송인호 입니다
+본 코드는 Socket programming Skeleton Code입니다. 
+각각은 Packet으로 String, Struct를 서로 주고 받습니다.
+
+여러분들 과제를 위해서는 위 코드에 다음 부분이 필요합니다.
+1. Packet을 재구성
+2. Server의 loop Listening (Server Listen 부분에 loop를 구현해야합니다)
+3. Host IP 재설정
+
+등등을 구현해주세요
+
+1분반 학생들은 올려드린 PPT를 보시면 follow up 할 수 있습니다
+```
+
+
 # socket_proggraming
 2022 DKU Computer Network Socket Programming Practice
 
