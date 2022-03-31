@@ -8,11 +8,14 @@ Struct는 로컬에서 돌려봤는데 잘 도니까 String이 안된다면 Stru
 1. Packet을 재구성
 2. Server의 loop Listening (Server Listen 코드 부분에 loop를 구현해야합니다. 화이팅)
 3. Host IP 재설정
-4. 실제 과제함에 있어서 Packet을 처리하고 다시 주고 받는 과정(packet을 주고 받으려면 loop를 돌면서 주고받을겁니다. send, recv)
+4. 실제 과제함에 있어서 Packet을 처리하고 다시 주고 받는 과정(packet을 주고 받으려면 loop를 돌면서 주고받을겁니다. send(), recv()를 어떻게 잘 쓸 수 있을까 고민해보세요)
 등등을 구현해주세요
 
+Socket Programming은 당장 여러분 졸업작품에도 활용될 수 있는 지식이니 한번에 집중해서 내공 쌓아놓으면 편할겁니다.
+이거로 연습하고 실제로 쓰이는 응용 : Websocket, HTTP etc 등을 공부해보세요
 1분반 학생들은 올려드린 PPT를 보시면 follow up 할 수 있습니다
-Python Language라면 인터넷에 많은 예제가 있으니 그걸 참고하시면 될겁니다
+Python Language라면 인터넷에 많은 예제가 있으니 그걸 참고하시면 될겁니다. 
+실무에서 Python보다는 다른 언어를 쓴다고 하니 관심있는 분들은 Python으로 입문하시고 다른 언어로 프로그래밍 하는걸 추천해봅니다.
 ```
 
 
