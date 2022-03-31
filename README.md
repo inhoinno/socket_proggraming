@@ -8,7 +8,8 @@ Struct는 로컬에서 돌려봤는데 잘 도니까 String이 안된다면 Stru
 1. Packet을 재구성
 2. Server의 loop Listening (Server Listen 코드 부분에 loop를 구현해야합니다. 화이팅)
 3. Host IP 재설정
-4. 실제 과제함에 있어서 Packet을 처리하고 다시 주고 받는 과정(packet을 주고 받으려면 loop를 돌면서 주고받을겁니다. send(), recv()를 어떻게 잘 쓸 수 있을까 고민해보세요)
+4. 실제 과제함에 있어서 Packet을 처리하고 다시 주고 받는 과정
+(packet을 주고 받으려면 loop를 돌면서 주고받을겁니다. send(), recv()를 어떻게 잘 쓸 수 있을까 고민해보세요)
 등등을 구현해주세요
 
 Socket Programming은 당장 여러분 졸업작품에도 활용될 수 있는 지식이니 한번에 집중해서 내공 쌓아놓으면 편할겁니다.
