@@ -28,7 +28,7 @@ $ENV : Ubuntu 20.04 LTS Linux 5.10.0 generic
 
 ## Getting Started
 ```
-$ git clone https://github.com/inhoinno/socket_proggraming.git
+git clone https://github.com/inhoinno/socket_proggraming.git
 $ cd socket_proggraming/ ; make
 
 ```
