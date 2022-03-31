@@ -6,9 +6,9 @@ Struct는 로컬에서 돌려봤는데 잘 도니까 String이 안된다면 Stru
 
 여러분들 과제를 위해서는 위 코드에 다음 부분이 필요합니다.
 1. Packet을 재구성
-2. Server의 loop Listening (Server Listen 부분에 loop를 구현해야합니다)
+2. Server의 loop Listening (Server Listen 코드 부분에 loop를 구현해야합니다. 화이팅)
 3. Host IP 재설정
-4. 실제 과제함에 있어서 Packet을 처리하고 다시 주고 받는 과정(packet을 주고 받으려면 loop를 )
+4. 실제 과제함에 있어서 Packet을 처리하고 다시 주고 받는 과정(packet을 주고 받으려면 loop를 돌면서 주고받을겁니다)
 등등을 구현해주세요
 
 1분반 학생들은 올려드린 PPT를 보시면 follow up 할 수 있습니다
