@@ -2,6 +2,7 @@
 단국대학교 네트워크 소켓프로그래밍 실습하시는 학생들 안녕하세요, 송인호 입니다
 본 코드는 Socket programming Skeleton Code입니다. 
 각각은 Packet으로 String, Struct를 서로 주고 받습니다.
+Struct는 로컬에서 돌려봤는데 잘 도니까 String이 안된다면 Struct를 참고해서 고쳐보세요
 
 여러분들 과제를 위해서는 위 코드에 다음 부분이 필요합니다.
 1. Packet을 재구성
