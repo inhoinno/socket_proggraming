@@ -75,3 +75,4 @@ This project is licensed under the GNU General Public License version 3.0 (GPLv3
 ## Acknowledgments
 * Wolfgang Mauereer, Professional Linux Kernel Architecture, O Wiely
 * [Sockets Programming in C](http://www.spec.gmu.edu/~pparis/classes/project_465/CSockets.pdf)
+* [티스토리 : Struct로 패킷 주고받기](https://uju-tech.tistory.com/entry/C-Socket-%EC%86%8C%EC%BC%93-%ED%86%B5%EC%8B%A0%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EA%B5%AC%EC%A1%B0%EC%B2%B4-%EC%A0%84%EC%86%A1)
