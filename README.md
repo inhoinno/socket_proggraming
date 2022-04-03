@@ -18,7 +18,7 @@ Socket Programming은 당장 여러분 졸업작품에도 활용될 수 있는 �
 Python Language라면 인터넷에 많은 예제가 있으니 그걸 참고하시면 될겁니다. 
 실무에서 Python보다는 다른 언어를 쓴다고 하니 관심있는 분들은 Python으로 입문하시고 다른 언어로 프로그래밍 하는걸 추천해봅니다.
 
-그리고 되게 중요한거를 못말헀는데, localhost가 아니라 remote에서 수행되기 위해서는
+그리고 되게 중요한거를 못말했는데, localhost가 아니라 remote에서 수행되기 위해서는
 Server와 Client 모두 (1)사용하려는 Port와 그거에 대한 (2)방화벽을 해제해야합니다.
 그때문에 유명한 프로토콜들은 모두 고유 포트가 존재합니다 (SSH 22 TCP 8080 HTTP 80 HTTPS 443 )
 '포트 여는법' '방화벽 해제'등을 검색해보세요. (참고 : https://jusunglee.tistory.com/entry/netstat-port%ED%99%95%EC%9D%B8)
