@@ -56,21 +56,24 @@ int main(void) {
           perror("listen");
           exit(1);
       }
-    /* [5] Accept : Now conntection has estabilished. extract socket_clientent's socket fd(=ns)*/
-      if ((ns = accept(sd, (struct sockaddr *)&socket_client, &msglen))==-1){
-          perror("accept");
-         exit(1);
-      }
 
-    host_entry = gethostbyaddr((char*)&socket_client.sin_addr, 4, AF_INET);
+      do{
+            /* [5] Accept : Now conntection has estabilished. extract socket_clientent's socket fd(=ns)*/
+          if ((ns = accept(sd, (struct sockaddr *)&socket_client, &msglen))==-1){
+              perror("accept");
+             exit(1);
+          }
+
+        host_entry = gethostbyaddr((char*)&socket_client.sin_addr, 4, AF_INET);
 
 
-    
-    /* [6] Send/Recv : send my packet*/
-    if (recv(ns,&packet,sizeof(packet),0)  == -1) {
-          perror("send");
-          exit(1);
-      }
+        
+        /* [6] Send/Recv : send my packet*/
+        if (recv(ns,&packet,sizeof(packet),0)  == -1) {
+              perror("send");
+              exit(1);
+          } 
+      }while(1);
 
       close(ns); // Disconnect Server -> Client
       printf("Client Info - Host Name: %s\n", host_entry->h_name);

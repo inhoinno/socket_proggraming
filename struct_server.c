@@ -56,6 +56,10 @@ int main(void) {
         perror("bind");
             exit(1);
       }
+
+
+
+      do{
     /* [4] Socket Listen */
     if (listen(sd, 5)) {
           perror("listen");
@@ -79,11 +83,14 @@ int main(void) {
           perror("send");
           exit(1);
       }
+    
 
-      close(ns); // Disconnect Server -> Client
       fprintf(stderr, "Client Info - Host Name: %s\n", host_entry->h_name);
       fprintf(stderr, "Client Info - IP Address: %s\n",inet_ntoa(socket_client.sin_addr));
       fprintf(stderr, "Client Info - Port Number %d\n", ntohs(socket_client.sin_port));
+      
+      }while(1);
+
       close(sd);// Close server socket 
       return 0;
   }
